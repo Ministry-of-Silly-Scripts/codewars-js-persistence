@@ -6,6 +6,8 @@ describe('the persistence canary spec', () => {
   });
 });
 
-// test("test persistence", () => {
-//   expect(persistence(0)).toBe(true);
-// });
+describe('persistence', () => {
+  it('should return 0 for input equal to 4', () => {
+    expect(persistence(4)).toBe(0);
+  });
+});

@@ -42,3 +42,4 @@ TODO:
     - update code/test files ✅
 - domain discussion ✅
 - perform the 'canary' test just to check if the structure works construction ✅
+- it should return 0 for input equal to 4 ✅
