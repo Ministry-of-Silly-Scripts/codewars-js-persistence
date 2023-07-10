@@ -10,9 +10,9 @@ describe('persistence', () => {
   it('should return 0 for input equal to 4', () => {
     expect(persistence(4)).toBe(0);
   });
-  // it('should return 1 for input equal to 10', () => {
-  //   expect(persistence(10)).toBe(1);
-  // });
+  it('should return 1 for input equal to 10', () => {
+    expect(persistence(10)).toBe(1);
+  });
 });
 
 describe('separateDigits', () => {

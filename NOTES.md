@@ -50,3 +50,4 @@ TODO:
 - created a new function `separateDigits` to split the input into digits and return an array ✅
 - `separateDigits`: it should return [4] for input equal to 4 ✅
 - `separateDigits`: it should return [1, 0] for input equal to 10 ✅
+- it should return 1 for input equal to 10 ✅
