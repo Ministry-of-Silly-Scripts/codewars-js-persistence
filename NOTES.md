@@ -12,6 +12,18 @@ For example (Input --> Output):
 4 --> 0 (because 4 is already a one-digit number)
 ```
 
+## Domain Discussion
+
+- input: positive number (integer)
+- output: number of times the input must multiply its digits until it reachs a single digit (integer)
+- RULES:
+    - separate the digits of the input
+    - count digits
+    - if not equal to one
+    - multiply the separated digits
+    - repeat until number of digits after multiplication equal to 1
+    - count the number of times the multiplication is required to get to 1 digit
+
 ---
 
 **Label**  
@@ -28,5 +40,5 @@ TODO:
     - update NOTES ✅
     - update package.json ✅
     - update code/test files ✅
-- domain discussion construction
+- domain discussion ✅
 - perform the 'canary' test just to check if the structure works construction
