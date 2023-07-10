@@ -13,6 +13,12 @@ describe('persistence', () => {
   it('should return 1 for input equal to 10', () => {
     expect(persistence(10)).toBe(1);
   });
+  it('should return 3 for input equal to 39', () => {
+    expect(persistence(39)).toBe(3);
+  });
+  it('should return 4 for input equal to 999', () => {
+    expect(persistence(999)).toBe(4);
+  });
 });
 
 describe('separateDigits', () => {

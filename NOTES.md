@@ -51,3 +51,5 @@ TODO:
 - `separateDigits`: it should return [4] for input equal to 4 ✅
 - `separateDigits`: it should return [1, 0] for input equal to 10 ✅
 - it should return 1 for input equal to 10 ✅
+- it should return 3 for input equal to 39 ✅
+- it should return 4 for input equal to 999 ✅

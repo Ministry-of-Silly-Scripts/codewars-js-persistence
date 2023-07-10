@@ -1,13 +1,14 @@
 const persistence = (num) => {
   split_num = separateDigits(num)
 
-  if (split_num.length === 2) {
-    multiply = split_num[0] * split_num[1]
+  counter = 0;
+  while (split_num.length !== 1) {
+    multiply = split_num.reduce((a, b) => a * b)
     split_num = separateDigits(multiply)
-    if (split_num.length === 1) return 1;
+    counter++;
   }
 
-  return 0
+  return counter
 };
 
 const separateDigits = (num) => {
