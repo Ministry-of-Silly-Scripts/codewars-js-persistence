@@ -1,5 +1,5 @@
-const { placeholder } = require("../src/index");
+const { persistence } = require("../src/index");
 
-test("test placeholder", () => {
-  expect(placeholder(0)).toBe(true);
+test("test persistence", () => {
+  expect(persistence(0)).toBe(true);
 });

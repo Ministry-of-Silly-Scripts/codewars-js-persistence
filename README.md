@@ -1,8 +1,8 @@
-# XXXXX kata 
+# Persistent Bugger kata 
 
-XXXXX kata performed by to practice TDD for the Jaguars training at IBM
+Persistent Bugger kata performed by to practice TDD for the Jaguars training at IBM
 
-[XXXXXX on CodeWars](https://www.codewars.com/kata/)
+[Persistent Bugger on CodeWars](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec)
 
 ## Prerequisites
 

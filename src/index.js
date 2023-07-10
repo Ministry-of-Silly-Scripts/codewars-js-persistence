@@ -1,5 +1,5 @@
-const placeholder = () => true;
+const persistence = () => true;
 
 module.exports = {
-  placeholder,
+  persistence,
 };
